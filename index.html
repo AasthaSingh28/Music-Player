@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="logo"><img src="./pictures/MPlogo.jpg" alt="logo"></li>
+            <li class="element">Home</li>
+            <li class="element">About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        
+        <div class="songlist">
+           <h1>Welcome to my Playlist!</h1>
+           <div class="songItemContainer">
+            <div class="songItem">
+                <img src="pictures/music.gif" >
+                <span class="songName">"What Makes You Beautiful"</span>
+                <span class="songplay"><span class="timestamp">05:30  <i id="0" class="far songItemPlay  fa-play-circle"></i></span>
+            </div>
+            <div class="songItem">
+                <img src="pictures/music.gif" >
+                <span class="songName">"Night Changes"</span>
+                <span class="songplay"><span class="timestamp">05:30  <i id="1" class="far songItemPlay fa-play-circle"></i></span>
+            </div>
+            <div class="songItem">
+                <img src="pictures/music.gif" >
+                <span class="songName" >"What Makes You Beautiful"</span>
+                <span class="songplay"><span class="timestamp">05:30  <i id="2" class="far songItemPlay fa-play-circle"></i></span>
+            </div>
+            <div class="songItem">
+                <img src="pictures/music.gif" >
+                 <span class="songName">"What Makes You Beautiful"</span>
+                <span class="songplay"><span class="timestamp">05:30  <i id="3" class="far songItemPlay fa-play-circle"></i></span>
+            </div>
+            <div class="songItem">
+                <img src="pictures/music.gif" >
+                <span class="songName">"What Makes You Beautiful"</span>
+                <span class="songplay"><span class="timestamp">05:30  <i id="4" class="far songItemPlay fa-play-circle"></i></span>
+            </div>
+            <div class="songItem">
+                <img src="pictures/music.gif" >
+                 <span class="songName">"What Makes You Beautiful"</span>
+                <span class="songplay"><span class="timestamp">05:30  <i id="5" class="far songItemPlay fa-play-circle"></i></span>
+            </div>
+            <div class="songItem">
+                <img src="pictures/music.gif" >
+               <span class="songName">"What Makes You Beautiful"</span>
+                <span class="songplay"><span class="timestamp">05:30  <i id="6" class="far songItemPlay  fa-play-circle"></i></span>
+            </div><div class="songItem">
+                <img src="pictures/music.gif" >
+              <span class="songName">"What Makes You Beautiful"</span>
+                <span class="songplay"><span class="timestamp">05:30  <i id="7" class="far songItemPlay fa-play-circle"></i></span>
+            </div>
+           </div>
+        </div>
+        <div class="songbanner"></div>
+        <img class="banner" src="pictures/afrTIGi.jpg" alt="image">
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" min="0" value="0" id="progressBar">
+        <div class="icons">
+            <!-- fontawesome icon -->
+            <i class="fas fa-2x fa-step-backward" id="previous"></i>
+             <i class="far fa-2x fa-play-circle" id="master"></i>
+             <i class="fas fa-2x fa-step-forward" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="pictures/music-wave.gif" id="gif"> 
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/7f671686f4.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
